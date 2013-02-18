@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>begin
+	$0
+end</string>
+	<key>name</key>
+	<string>begin</string>
+	<key>scope</key>
+	<string>source.verilog</string>
+	<key>tabTrigger</key>
+	<string>begin</string>
+	<key>uuid</key>
+	<string>2D882941-BE9C-4E7E-915E-46DD156A15A3</string>
+</dict>
+</plist>

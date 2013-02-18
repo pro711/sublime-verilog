@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>always @(posedge clk or ${1:posedge} ${2:rst}) begin
+	if ($2) begin
+		// reset
+		$3
+	end
+	else if ($4) begin
+		$0
+	end
+end</string>
+	<key>name</key>
+	<string>always</string>
+	<key>scope</key>
+	<string>source.verilog</string>
+	<key>tabTrigger</key>
+	<string>always</string>
+	<key>uuid</key>
+	<string>026B3DA6-E1B4-4F09-B7B6-9485ADEF34DC</string>
+</dict>
+</plist>

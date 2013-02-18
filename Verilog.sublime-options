@@ -1,0 +1,14 @@
+# Settings in here override the defaults in:
+# Packages/Default/Options/Default File Type.sublime-options
+# See there for the available options and their description.
+
+# wordWrap false
+
+rulers 80
+
+# Set to true to removing trailing whitespace on save
+trimTrailingWhiteSpaceOnSave true
+
+# Set to true to insert spaces when tab is pressed
+translateTabsToSpaces true
+
