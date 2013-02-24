@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string><![CDATA[generate
+	genvar ${1:i};
+	for ($1 = 0; $1 < ${2:n}; $1 = $1 + 1)
+	begin:${3:identifier}
+		$0
+	end
+endgenerate]]></string>
+	<key>name</key>
+	<string>forg</string>
+	<key>scope</key>
+	<string>source.verilog</string>
+	<key>tabTrigger</key>
+	<string>forg</string>
+	<key>uuid</key>
+	<string>B1F3EF8D-6E41-41F3-ACAC-FAD92CC4CC8F</string>
+</dict>
+</plist>
