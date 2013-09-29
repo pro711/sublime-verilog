@@ -6,11 +6,11 @@
       "description": "Verilog Package for Sublime Text 2",
       "author": "Tao Chen",
       "homepage": "https://github.com/pro711/sublimetext-Verilog",
-      "last_modified": "2013-02-24 17:12:54",
+      "last_modified": "2013-09-29 19:21:47",
       "platforms": {
         "*": [
           {
-            "version": "0.1.0",
+            "version": "0.1.1",
             "url": "https://nodeload.github.com/pro711/sublime-verilog/zipball/master"
           }
         ]

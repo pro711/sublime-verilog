@@ -346,7 +346,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>((\b\d+)?'([bB]\s*(([0-1_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[oO]\s*(([0-7_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[dD]\s*(([0-9_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[hH]\s*(([0-9a-fA-F_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*)))((e|E)(\+|-)?[0-9]+)?\b)|(\b\d+\b)</string>
+				<string>((\b\d+)?'s?([bB]\s*(([0-1_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[oO]\s*(([0-7_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[dD]\s*(([0-9_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*))|[hH]\s*(([0-9a-fA-F_xXzZ?]+)|(`[A-Z]+[_0-9a-zA-Z]*)))((e|E)(\+|-)?[0-9]+)?\b)|(\b\d+\b)</string>
 				<key>name</key>
 				<string>constant.numeric.verilog</string>
 			</dict>
