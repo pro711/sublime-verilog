@@ -3,10 +3,10 @@
   "packages": [
     {
       "name": "Sublime Text Verilog",
-      "description": "Verilog Package for Sublime Text 2",
+      "description": "Verilog Package for Sublime Text 2/3",
       "author": "Tao Chen",
       "homepage": "https://github.com/pro711/sublimetext-Verilog",
-      "last_modified": "2013-09-29 19:21:47",
+      "last_modified": "2014-07-16 00:16:14",
       "platforms": {
         "*": [
           {
