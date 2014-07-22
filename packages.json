@@ -1,20 +1,21 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "2.0",
   "packages": [
     {
       "name": "Sublime Text Verilog",
       "description": "Verilog Package for Sublime Text 2/3",
       "author": "Tao Chen",
-      "homepage": "https://github.com/pro711/sublimetext-Verilog",
-      "last_modified": "2014-07-16 00:16:14",
-      "platforms": {
-        "*": [
-          {
-            "version": "0.1.1",
-            "url": "https://nodeload.github.com/pro711/sublime-verilog/zipball/master"
-          }
-        ]
-      }
+      "homepage": "https://github.com/pro711/sublime-verilog",
+      "details": "https://github.com/pro711/sublime-verilog",
+      "issues" : "https://github.com/pro711/sublime-verilog/issues",
+      "releases" : [
+        {
+          "platforms": "*",
+          "sublime_text": "*",
+          "version": "0.1.1",
+          "url": "https://nodeload.github.com/pro711/sublime-verilog/zip/master"
+        }
+      ]
     }
   ]
 }
