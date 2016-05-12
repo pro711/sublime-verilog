@@ -298,7 +298,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>(!|&amp;&amp;|\|\||\bor\b)</string>
+				<string>(!|&amp;&amp;|\|\|)</string>
 				<key>name</key>
 				<string>keyword.operator.logical.verilog</string>
 			</dict>
