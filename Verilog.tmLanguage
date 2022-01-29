@@ -24,7 +24,7 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>storage.type.verilog</string>
+						<string>storage.verilog</string>
 					</dict>
 					<key>2</key>
 					<dict>
@@ -50,12 +50,12 @@
 					<key>2</key>
 					<dict>
 						<key>name</key>
-						<string>entity.name.type.instance.verilog</string>
+						<string>variable.function.verilog</string>
 					</dict>
 					<key>3</key>
 					<dict>
 						<key>name</key>
-						<string>keyword.operator.parenthesis.round.verilog</string>
+						<string>text.operator.parenthesis.round.verilog</string>
 					</dict>
 				</dict>
 				<key>match</key>
@@ -82,7 +82,7 @@
 					<key>3</key> <!-- ( -->
 					<dict>
 						<key>name</key>
-						<string>keyword.operator.parenthesis.round.verilog</string>
+						<string>text.operator.parenthesis.round.verilog</string>
 					</dict>
 					<key>4</key> <!-- something,something -->
 					<dict>
@@ -92,7 +92,7 @@
 					<key>5</key> <!-- ) -->
 					<dict>
 						<key>name</key>
-						<string>keyword.operator.parenthesis.round.verilog</string>
+						<string>text.operator.parenthesis.round.verilog</string>
 					</dict>
 					<key>6</key>
 					<dict>
@@ -102,7 +102,7 @@
 					<key>7</key>
 					<dict>
 						<key>name</key>
-						<string>keyword.operator.parenthesis.round.verilog</string>
+						<string>text.operator.parenthesis.round.verilog</string>
 					</dict>
 				</dict>
 				<key>match</key>
@@ -201,12 +201,12 @@
 					<dict>
 						<key>name</key>
 						<!-- <string>keyword.other.verilog</string> -->
-						<string>meta.preprocessor.verilog</string>
+						<string>keyword.preprocessor.verilog</string>
 					</dict>
 					<key>2</key>
 					<dict>
 						<key>name</key>
-						<string>entity.name.type.include.verilog</string>
+						<string>entity.name.filename.include.verilog</string>
 					</dict>
 				</dict>
 				<key>match</key>
@@ -220,7 +220,7 @@
 					<key>1</key>
 					<dict>
 						<key>name</key>
-						<string>meta.preprocessor.verilog</string>
+						<string>keyword.preprocessor.verilog</string>
 					</dict>
 					<key>2</key>
 					<dict>
@@ -237,7 +237,7 @@
 				<key>match</key>
 				<string>`(celldefine|default_nettype|define|else|elsif|endcelldefine|endif|ifdef|ifndef|include|line|nounconnected_drive|resetall|timescale|unconnected_drive|undef)\b</string>
 				<key>name</key>
-				<string>meta.preprocessor.verilog</string>
+				<string>keyword.preprocessor.verilog</string>
 			</dict>
 			<dict>
 				<key>match</key>
@@ -259,7 +259,7 @@
 				<key>match</key>
 				<string>\b(endmodule|endfunction|endprimitive)\b</string>
 				<key>name</key>
-				<string>storage.type.verilog</string>
+				<string>storage.verilog</string>
 			</dict>
 			<dict>
 				<key>captures</key>
@@ -308,7 +308,7 @@
 				<key>name</key>
 				<string>keyword.operator.bitwise.verilog</string>
 			</dict>				
-			<dict>
+<!-- 			<dict>
 				<key>match</key>
 				<string>({|})</string>
 				<key>name</key>
@@ -331,7 +331,7 @@
 				<string>([;,])</string>
 				<key>name</key>
 				<string>keyword.delimiter.verilog</string>
-			</dict>
+			</dict> -->
 			<dict>
 				<key>match</key>
 				<string>(#|@|=)</string>
