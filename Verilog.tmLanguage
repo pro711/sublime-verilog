@@ -286,7 +286,7 @@
 			</dict>			
 			<dict>
 				<key>match</key>
-				<string>(==|===|!=|!==|&lt;=|&gt;=|&lt;|&gt;)</string>
+				<string>(===|==|!==|!=|&lt;=|&gt;=|&lt;|&gt;)</string>
 				<key>name</key>
 				<string>keyword.operator.comparison.verilog</string>
 			</dict>
@@ -472,7 +472,8 @@
 							</dict>
 						</array>
 					</dict>
-					<dict>
+					<!-- single quotes are not used for strings
+                                        <dict>
 						<key>begin</key>
 						<string>'</string>
 						<key>beginCaptures</key>
@@ -505,6 +506,7 @@
 							</dict>
 						</array>
 					</dict>
+                                        -->
 				</array>
 			</dict>		
 		</dict>
