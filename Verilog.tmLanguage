@@ -166,7 +166,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(automatic|cell|config|deassign|defparam|design|disable|edge|endconfig|endgenerate|endspecify|endtable|endtask|event|generate|genvar|ifnone|incdir|include|instance|liblist|library|localparam|macromodule|negedge|noshowcancelled|posedge|pulsestyle_onevent|pulsestyle_ondetect|real|realtime|scalared|showcancelled|specify|specparam|table|task|time|use|vectored)\b</string>
+				<string>\b(timeunit|timeprecision|automatic|cell|config|deassign|defparam|design|disable|edge|endconfig|endgenerate|endspecify|endtable|endtask|event|generate|genvar|ifnone|incdir|include|instance|liblist|library|localparam|macromodule|negedge|noshowcancelled|posedge|pulsestyle_onevent|pulsestyle_ondetect|real|realtime|scalared|showcancelled|specify|specparam|table|task|time|use|vectored)\b</string>
 				<key>name</key>
 				<string>keyword.other.verilog</string>
 			</dict>
@@ -178,7 +178,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(initial|always|wait|force|release|assign)\b</string>
+				<string>\b(initial|final|always|wait|force|release|assign)\b</string>
 				<key>name</key>
 				<string>keyword.control.verilog</string>
 			</dict>
